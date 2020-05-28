@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/erfahren/static/css/main.7309f738.chunk.css",
+    "main.css": "/erfahren/static/css/main.47dc9ede.chunk.css",
     "main.js": "/erfahren/static/js/main.b7f7fdd1.chunk.js",
     "main.js.map": "/erfahren/static/js/main.b7f7fdd1.chunk.js.map",
     "runtime-main.js": "/erfahren/static/js/runtime-main.ee211527.js",
@@ -8,9 +8,9 @@
     "static/js/2.2ff0d914.chunk.js": "/erfahren/static/js/2.2ff0d914.chunk.js",
     "static/js/2.2ff0d914.chunk.js.map": "/erfahren/static/js/2.2ff0d914.chunk.js.map",
     "index.html": "/erfahren/index.html",
-    "precache-manifest.1336391a9569afade03a6d424f0167da.js": "/erfahren/precache-manifest.1336391a9569afade03a6d424f0167da.js",
+    "precache-manifest.372be1b947f5bf5296e8ed25178c47b5.js": "/erfahren/precache-manifest.372be1b947f5bf5296e8ed25178c47b5.js",
     "service-worker.js": "/erfahren/service-worker.js",
-    "static/css/main.7309f738.chunk.css.map": "/erfahren/static/css/main.7309f738.chunk.css.map",
+    "static/css/main.47dc9ede.chunk.css.map": "/erfahren/static/css/main.47dc9ede.chunk.css.map",
     "static/js/2.2ff0d914.chunk.js.LICENSE.txt": "/erfahren/static/js/2.2ff0d914.chunk.js.LICENSE.txt",
     "static/media/close.svg": "/erfahren/static/media/close.c2c91949.svg",
     "static/media/menu.svg": "/erfahren/static/media/menu.b6757aed.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee211527.js",
     "static/js/2.2ff0d914.chunk.js",
-    "static/css/main.7309f738.chunk.css",
+    "static/css/main.47dc9ede.chunk.css",
     "static/js/main.b7f7fdd1.chunk.js"
   ]
 }
