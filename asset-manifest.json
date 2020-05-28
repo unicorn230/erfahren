@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/erfahren/static/css/main.ade30b0b.chunk.css",
-    "main.js": "/erfahren/static/js/main.22d345a9.chunk.js",
-    "main.js.map": "/erfahren/static/js/main.22d345a9.chunk.js.map",
+    "main.js": "/erfahren/static/js/main.1fce81ca.chunk.js",
+    "main.js.map": "/erfahren/static/js/main.1fce81ca.chunk.js.map",
     "runtime-main.js": "/erfahren/static/js/runtime-main.ee211527.js",
     "runtime-main.js.map": "/erfahren/static/js/runtime-main.ee211527.js.map",
     "static/js/2.ee4ed3d0.chunk.js": "/erfahren/static/js/2.ee4ed3d0.chunk.js",
     "static/js/2.ee4ed3d0.chunk.js.map": "/erfahren/static/js/2.ee4ed3d0.chunk.js.map",
     "index.html": "/erfahren/index.html",
-    "precache-manifest.a5336fab0425451fdceb3a64256206d5.js": "/erfahren/precache-manifest.a5336fab0425451fdceb3a64256206d5.js",
+    "precache-manifest.c4d718571ddcee6005767315f6af2b74.js": "/erfahren/precache-manifest.c4d718571ddcee6005767315f6af2b74.js",
     "service-worker.js": "/erfahren/service-worker.js",
     "static/css/main.ade30b0b.chunk.css.map": "/erfahren/static/css/main.ade30b0b.chunk.css.map",
     "static/js/2.ee4ed3d0.chunk.js.LICENSE.txt": "/erfahren/static/js/2.ee4ed3d0.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.ee211527.js",
     "static/js/2.ee4ed3d0.chunk.js",
     "static/css/main.ade30b0b.chunk.css",
-    "static/js/main.22d345a9.chunk.js"
+    "static/js/main.1fce81ca.chunk.js"
   ]
 }
