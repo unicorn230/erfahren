@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/erfahre/ua",
+  "start_url": "/erfahren/ua",
   "display": "standalone",
   "theme_color": "#1b1b2f",
   "background_color": "#1b1b2f",
