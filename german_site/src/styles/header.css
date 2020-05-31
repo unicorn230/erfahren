@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Teko:wght@500&display=swap');
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoText{
+    font-size: 3em;
+    width: 60%;
+    color: #1b1b2f;
+}
+
+header{
+    height: 10%;
+    font-family: 'Oswald', sans-serif;
+    background-color: #e43f5a;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul> li{
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+.link{
+    font-family: 'Oswald', sans-serif;
+
+    display: flex;
+    align-items: center;
+    /* font-weight: bold; */
+    height: 100%;
+    font-size: 2em;
+    text-decoration: none;
+    color: #1b1b2f;
+    -webkit-transition:  border 300ms ease;
+    -moz-transition:  border 300ms ease;
+    -o-transition:  border 300ms ease;
+    -ms-transition: border 300ms ease;
+    transition: border 300ms ease; 
+    
+}
+
+
+
+.link:hover{
+    text-decoration: underline;
+   /* border-bottom: 6px solid #1b1b2f; */
+
+}
+
+.selected{
+    
+    text-decoration: underline;
+    /* border-bottom: 6px solid #1b1b2f; */
+  }
+
+
+.mobile{
+    display: none;
+    
+    /* width: 0%; */
+    /* height: 0%; */
+}
+
+
+
+
+.menuIcon{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    border: 2px solid #e43f5a;
+}
+
+
+/* mobile */
+
+
+.mobileContainer{
+    
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    z-index: 2;
+    position: fixed;
+    right: 100%;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #1b1b2f;
+    border: 5px solid #e43f5a;
+
+}
+
+
+.mobileContainer-enter {
+    border: none;
+    left: 100%;
+    /* width: 0%; */
+
+  }
+  .mobileContainer-enter-done{
+    transition: all 1s;
+    left: 0;
+
+    
+  }
+  .mobileContainer-exit {
+    align-self: flex-start;
+    right: 0;
+    border: 5px solid #e43f5a;
+    
+  }
+  .mobileContainer-exit-done {
+    transition: all 1s;
+    right: 100%;
+
+
+  }
+  
+
+
+.MobLogo{
+    font-family: 'Oswald', sans-serif;
+    color: #e43f5a;
+}
+
+.mobileContainer> nav{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid #e43f5a;
+}
+
+.mobileContainer> nav{
+    width: 90%;
+    height: 10%;
+}
+
+
+
+.innerMobMenu{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 90%;
+}
+
+/* .languages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    margin-top: 3em;
+
+} */
+
+
+.options{
+    font-size: 1.5em;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
+.options > li{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;;
+    display: flex;
+    flex-flow: row;
+}
+.options > li> .link{
+    color: #e43f5a;
+
+    /* margin-left: 1em;
+    margin-right: 1em; */
+
+}
+
+/* .options > li{
+    margin-top: 3em;
+} */
+
+
+
+
+  
+
+
+
+@media (max-width: 1050px) {
+    .container{
+        width: 90%;;
+    }
+    nav{
+        justify-content: space-around   ;
+        width: 70%;
+    
+    }
+    .logoText{
+        font-size: 2em;
+        width: 30%;
+    }
+
+}
+  
+@media (max-width: 700px) {
+
+    .mobile{
+        display: flex;
+    }
+    .logoText{
+        width: 80%;
+
+    }
+    nav{
+        justify-content: flex-end;
+        align-items: center;
+        width: 20%;
+    }
+
+    nav > ul{
+        display: none;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    .logoText{
+        font-size: 1.5em;
+    }
+
+}
