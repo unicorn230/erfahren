@@ -8,7 +8,7 @@ import text from '../../texts'
 export default function WordsListing(props){
     const[wordState, setWordState]= useState(true)
     useEffect(()=>{
-         props.word.verb === false ? setWordState(false): setWordState(true)
+         props.word.verb === false  ? setWordState(false): setWordState(true)
     },[props])
     return(
         <Fragment>

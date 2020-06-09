@@ -5,7 +5,8 @@ import loader from '../../assets/oval.svg'
 import text from '../../texts'
 import axios from 'axios'
 import {Context} from '../../context'
-
+import Verbs from './Verbs'
+import VerbsD from './verbsDesktop'
 
 export default function Words(props){
     const [loading, setLoading]= useState(true)
@@ -18,6 +19,7 @@ export default function Words(props){
     {
         e.preventDefault()
         addWord(e.target.word.value)
+        setError(false)
 
         e.target.word.value =''
     }
@@ -29,7 +31,7 @@ export default function Words(props){
         try{
         let res = await axios(
             `http://localhost:3001/words/${word}`);
-         // `https://verbs-server.herokuapp.com//words/${word}`);
+         // `https://verbs-server.herokuapp.com/words/${word} `);
             
 
         let words = await res.data
@@ -75,7 +77,7 @@ export default function Words(props){
                             loading? 
                                 <img src={loader} alt='loader'/> 
                                 : 
-                                !error?
+                                !error && usedDataWord[word] !== undefined ?
                                     <WordsListing lang={props.lang} word={usedDataWord[word]}/>
                                     : 
                                     <h1 className='yourWord'>Not Found</h1> 
@@ -84,6 +86,7 @@ export default function Words(props){
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

@@ -30,6 +30,7 @@ export default ({lang})=>{
                       <li><NavLink onClick={()=> setshowMenu(false)} exact className="link" activeClassName="selected" to={`${lang}`}>{text.headerText.home[lang.slice(1)]}</NavLink></li>
                       <li><NavLink onClick={()=> setshowMenu(false)} className="link" activeClassName="selected" to={`${lang}/words`}>{text.headerText.words[lang.slice(1)]}</NavLink></li>
                       <li><NavLink onClick={()=> setshowMenu(false)} className="link" activeClassName="selected" to={`${lang}/cities`}>{text.headerText.cities[lang.slice(1)]}</NavLink></li>
+                      <li><NavLink onClick={()=> setshowMenu(false)} className="link" activeClassName="selected" to={`${lang}/handbook`}>{text.headerText.handbook[lang.slice(1)]}</NavLink></li>
                       <li><NavLink onClick={()=> setshowMenu(false)} className="link" activeClassName="selected" to={`${lang}/api`}>API</NavLink></li>
 
                       <li>
@@ -58,12 +59,15 @@ export default ({lang})=>{
                   <li><NavLink exact className="link" activeClassName="selected" to={`${lang}`}>{text.headerText.home[lang.slice(1)]}</NavLink></li>
                   <li><NavLink className="link" activeClassName="selected" to={`${lang}/words`}>{text.headerText.words[lang.slice(1)]}</NavLink></li>
                   <li><NavLink className="link" activeClassName="selected" to={`${lang}/cities`}>{text.headerText.cities[lang.slice(1)]}</NavLink></li>
-                  <li><NavLink onClick={()=> setshowMenu(false)} className="link" activeClassName="selected" to={`${lang}/api`}>API</NavLink></li>
+
+                  <li><NavLink className="link" activeClassName="selected" to={`${lang}/handbook`}>{text.headerText.handbook[lang.slice(1)]}</NavLink></li>
+
+                  <li><NavLink  className="link" activeClassName="selected" to={`${lang}/api`}>API</NavLink></li>
 
                   
               </ul>
-              <ul type="none">
-                  <li><NavLink className="link " activeClassName="selected" to={`/ua${location.pathname.slice(3)}`}>UA</NavLink></li>
+              <ul type="none" >
+                  <li ><NavLink className="link " activeClassName="selected" to={`/ua${location.pathname.slice(3)}`}>UA</NavLink></li>
                   <li><NavLink className="link " activeClassName="selected" to={`/de${location.pathname.slice(3)}`}>DE</NavLink></li>
                   <li><NavLink className="link " activeClassName="selected" to={`/en${location.pathname.slice(3)}`}>EN</NavLink></li>
               </ul>

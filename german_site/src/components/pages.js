@@ -25,7 +25,7 @@ export default function Pages(props){
               <Page lang={path} />
             </Route>
             <Route>
-              <FourOFour lang={path}/>
+              <FourOFour />
             </Route>
   
         </Switch>

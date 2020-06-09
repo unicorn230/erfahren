@@ -1,36 +1,33 @@
 export default {
     mainText:{
         ua: `
-        Сайт створено на XVIII Міжнародний конкурс із Web-дизайну та комп'ютерної графіки,
-        сайт позиціонує себе, як інструмент, що полегшує вивчення німецької мови та створення подібних ресурсів,
-        сайт надає доступ до бази даних німецьких слів та їх форм, міст та інформацію про них таку, 
-        як населення, власне населення, федеральну столицю, координати міста, до сайту створено сервер,
-        що надає API, що можна використовувати вільно, на сайті є 4 розділи: головна, слова, міста
-        та API, що надають доступ відповідно до інформації про слова та міста, та розділ API, що кортко описує використання API.
-        Автор сайту - Феджага Володимир сподівається, що сайт допоможе тим, хто вивчає німецьку мову, легко отримати потрібну
-        їм інформацію та досягти висот у вивченні німецької мови    
+        - веб додаток, орієнтований на використання на мобільних девайсах, створений для того, 
+        щоб допомагати людям у вивченні німецької мови. Він надає можливість зручно отримати необхідну 
+        інформацію про форми німецьких дієслів та іменників, а також інформацію про німецькі міста, 
+        база даних налічує понад 8000 дієслів та 66000 іменників. Всі дані знаходяться у вільному доступі для 
+        розробників, на сторінці API можна прочитати, як їх викоритовувати. Також на сайті є сторінка довідник, 
+        що стисло дає інформацію ро німецьку граматику.
+        Автор веб додатку - Феджага Володимир сподівається, що додаток допоможе всім користувачам досягти висот у вивченні німецької мови 
+
+        
         `,
         de: `
-        Die Seite ist erstellt für XVIII Internationale Wettbewerb für Webßdesign und Computergrafik,
-        die Seite stellt sich, als Werkzeug, dass das Lernen die deutsche Sprache und das Ersellen solchen 
-        Ressourcen erleichtet, die Site bietet den Zugriff auf die Datenbak der Deutschen Wörter und ihrer Formen,
-        Städte und solche Informationen über sie, wie Bevölkerung, eigene Bevölkerung, die Bundeshauptstadt,
-        die Koordinaten, es ist ein Server für die Seite erstellt, der gibt API, die kann man frei benutzen,
-        es gibt 4 Sektionen: Home, Wörter, Städte und API, die geben den Zugriff beziehungsweise zu Informationen über
-        die Wörter und Städte und die Sektion API, die kurz das Benutzen die API beschreibt.
-        Der Autor der Seite - Fedshaga Volodymyr hofft, dass die Seite deren damit hilft, die Deutsch lernen, leicht nötigen Informationen
-        zu bekommen und die Meisterschaft in Deutsch zu erreichen.
+        - eine Webanwendung für mobile Geräte, die dafür erstellt wurde,
+        den Menschen zu helfen, Deutsch zu lernen. Es macht es einfach, die gebrauchte Informationen zu Formen deutscher Verben und Substantive sowie Informationen zu deutschen Städten zu bekommen,
+        Die Datenbank enthält mehr als 8.000 Verben und 66.000 Substantive. Die Datei ist frei verfügbar für
+        Entwickler. Können Sie auch auf der API-Seite lesen, wie Sie sie verwenden. Die Site hat auch eine Handbuch Seite,
+        die kurz Informationen zur deutschen Grammatik liefert.
+        Der Autor der Webanwendung - Volodymyr Fedzhaga - hofft, dass die Anwendung allen Benutzern hilft, Deutsch zu lernen
   
         `,
         en: `
-        Site is created, as work for XVIII International Competition of web-design und computer grafics,
-        site establishes itself as a tool, that makes it easier to learn German language and to create such resources,
-        site provides access to database of German words and their forms, cities and information about them, such as
-        population, proper population, federal capital, city coordinates, there is a server created for a web-site, 
-        that provides API, which can be used freely, there are 4 sections: Home, Words, Cities and API, which provides
-        information about words and cities and section, that shortly describes the use of API.
-        Autor of the site - Fedzhaga Volodymyr hopes, that site will help to the people, which are learning German language,
-        to get information they need and to reach heights in the study of the German language
+        - a web application aimed at use on mobile devices, created to
+        to help people learn German. It makes it easy to get
+        information about forms of German verbs and nouns, as well as information on German cities,
+        the database includes more than 8,000 verbs and 66,000 nouns. All data is freely available for
+        developers, on the API page you can read how to use them. The site also has a Handbook page,
+        which briefly provides information on German grammar.
+        The author of the web application - Volodymyr Fedzhaga hopes that the application will help all users to reach heights in learning German
   
         `
     },
@@ -41,9 +38,9 @@ export default {
             en: 'Word will appear here'
         },
         placeholder:{
-            ua: 'введіть ваше слово',
-            de: 'geben Sie ihr Wort ein',
-            en: 'type your word'
+            ua: 'введіть ваше слово (німецькою)',
+            de: 'geben Sie ihr Wort ein ',
+            en: 'type your word (in german)'
         }
     },
     citiesText:{
@@ -85,6 +82,11 @@ export default {
           ua: 'Головна',
           de: 'Home',
           en: 'Home'
+        },
+        handbook:{
+            ua: `Довідник`,
+            de: `Handbuch`,
+            en: `Handbook`
         }
     },
     cityText:{
@@ -180,5 +182,59 @@ export default {
             de:`die Anforderung gibt die Informationen über diese Stadt zurück, wenn diese Stadt nicht gefunden ist, gibt der Server status 404 zurück`,
             en:`server responses with information about this city, if this city is not found server responses with status 404`
         },
+    },
+    handBook: {
+        geschlechter: {
+            ua: `роди`,
+            de: `geschlechter`,
+            en: `genders `
+        },
+        faelle: {
+            ua: `відмінки`,
+            de: `fälle`,
+            en: `cases`
+        },
+        adjektive: {
+            ua: `прикметники`,
+            de: `adjektive`,
+            en: `adjectives`
+        },
+        praesens: {
+            ua: `теперешній час`,
+            de: `präsens`,
+            en: `continious`
+        },
+        vergangen: {
+            ua: `минулий час`,
+            de: `vergangen`,
+            en: `past`
+        },
+        futurum: {
+            ua: `майбутній час`,
+            de: `futurum`,
+            en: `future`
+        },
+        plusquamperfekt: {
+            ua: `плюсквамперфект`,
+            de: `plusquamperfekt`,
+            en: `plusquamperfekt`
+        },
+        konjunktiv1: {
+            ua: `кон'юнктив 1`,
+            de: `konjunktiv 1`,
+            en: `konjunktiv 1`
+        },
+        konjunktiv2: {
+            ua: `кон'юнктив 2`,
+            de: `konjunktiv 2`,
+            en: `konjunktiv 2`
+        },
+        passiv: {
+            ua: `пасив`,
+            de: `passiv`,
+            en: `passive`
+        }
     }
 }
+
+// todo const pathes = ['genders', 'cases', 'adjectives', 'continious', 'past', 'future', 'plusquamperfekt', 'konjunktiv1', 'konjunktiv2', 'passive']

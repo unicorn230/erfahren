@@ -7,6 +7,12 @@
 
 
 .main{
+    /* background-image: url('../assets/trompe.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover; */
     overflow-y: scroll;
     display: flex;
     justify-content: center;
@@ -19,7 +25,7 @@
 
 
 
-.main > h1{
+.fourOFour{
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
     font-size: 4em;

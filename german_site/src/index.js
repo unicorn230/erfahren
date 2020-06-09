@@ -5,10 +5,8 @@ import './styles/words.css'
 import './styles/header.css'
 import './styles/App.css'
 import './styles/api.css'
-
-
-
 import App from './components/App';
+
 
 ReactDOM.render(
     <App />,
